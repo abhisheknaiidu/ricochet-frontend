@@ -11,6 +11,7 @@ import { VaultsPage } from 'pages/VaultPage';
 import { RecentActivityPage } from 'pages/RecentActivityPage';
 import { ReferPage, ReferralValidationRedirectPage } from 'pages/ReferPage';
 import { DistributionPage } from 'pages/Distributions';
+import { SwapPage } from 'pages/SwapPage';
 
 interface IProps {
 }
@@ -26,6 +27,7 @@ const MainRouter: FC<IProps> = () => {
       <SentryRoute path={Routes.InvestLaunchpads} component={InvestPage} exact />
       {/* <SentryRoute path={Routes.InvestLiquidityMarkets} component={InvestPage} exact /> */}
       <SentryRoute path={Routes.Invest} component={InvestPage} exact />
+      <SentryRoute path={Routes.Swap} component={SwapPage} exact />
       <SentryRoute path={Routes.Distributions} component={DistributionPage} exact />
       <SentryRoute path={Routes.Banks} component={BanksPage} exact />
       <SentryRoute path={Routes.Vaults} component={VaultsPage} exact />
