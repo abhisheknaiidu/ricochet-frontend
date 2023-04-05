@@ -57,7 +57,7 @@
 		"@web3-react/types": "^6.0.7",
 		"axios": "0.26.0",
 		"classnames": "2.2.6",
-		"connected-react-router": "6.9.2",
+		"connected-react-router": "6.9.3",
 		"cross-env": "7.0.3",
 		"date-fns": "^2.28.0",
 		"dayjs": "^1.11.2",
